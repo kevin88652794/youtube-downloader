@@ -15,7 +15,7 @@
 ## 🚀 快速開始
 
 ### 1. 安裝套件
-```bash
+bash
 go mod tidy
 
 ### 2. 執行下載
@@ -23,9 +23,13 @@ go run main.go -url "你的 YouTube 網址"
 
 ### 3. 編譯為執行檔
 go build -o ytdl.exe main.go
+
+### 4.編譯完後須使用Poweshell執行以下命令
 .\ytdl.exe -url "你的 YouTube 網址"
 
 📝 注意事項
 請確保 ffmpeg.exe 的路徑在程式碼中設定正確（預設為 C:\ffmpeg\bin\ffmpeg.exe）。
 
 本工具僅供學習與技術交流使用，請遵守 YouTube 相關服務條款。
+
+歡迎來信與我討論! 
